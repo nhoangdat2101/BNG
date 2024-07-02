@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box
+}
+body{ font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif""serif"; font-size: 16px; color: green; margin: 0
+	
+}
+
+
+.banner{
+	width:  100%; min-height: 200px
+}
+.img-100{
+	width: 100%; height: auto
+}
+.container{width: 80%; margin:0 auto
+	
+}
+header{
+	width: 100%; height: 60px; background-color: #FCB950;
+}
+.Logo{
+	float: left
+}
+.menu{
+	float: right; padding-top: 20px
+}
+.menu a{
+	padding: 10px 20px; text-decoration: none; font-size: 18px; font-weight: 600; color: white; 
+}
+.menu a:hover{
+	color: aqua
+}/*Phan nay lam cho viec khi dua con tro chuot vao chu thi no doi xanh*/
+
+main{
+	width: 100%; min-height: 400px; clear: both /* clear cai thang float di*/
+}
+.w-25{
+	width: 25%; padding: 15px; float: left
+}
+.vien{
+	border: 1px solid #008000; padding: 10px; border-radius: 15px; text-align: center; margin: 20px
+}
+.bo-gochinh{
+	border-radius: 15px
+}
+.tour{
+	font-size: 18px; font-weight: bold
+}
+.gia{color: red; font-weight: bold
+}
+footer{
+	width: 100%; height: 50px; background-color: #FCB950; clear: both; color: white; text-align: center; line-height: 50px
+}
+h2{
+	color: #0D1DCF; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-weight: bold; text-decoration:underline;  font-size: 25px
+} /*Hỏi thầy sao mà under nó bị cắt qua dấu chấm*/
+.w-40{
+	width: 40%; float: left
+}
+.form-control{
+	padding: 8px; margin-bottom: 10px
+}
+.ND{
+	color: #979292; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; padding: 10px 5px
+}
+input{
+	width:100%;
+}
+textarea{
+	width: 100%; color: #7A7777 ; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
+}
+.w-60{
+	width: 60%; float: left; padding: 0px 10px	
+}
+.box{
+	
+}
+.gtt{
+	background-color:#2440D0; color: white; width: 30%; height: 40px; line-height: 40px; text-align: center; border-radius: 10px; font-size: 12px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-weight: bold; margin-bottom: 15px
+}
+.gtt:hover{
+	background-color: #FCB950
+}
+.vien1{
+	border: 1px solid #C4C4C4;width: 100%;min-height: 400px; margin-bottom: 10px; padding: 10px; color: black
+}
+
+.vien2{
+	border: 1px solid #C4C4C4; width: 100%; min-height: 400px; margin-bottom: 10px ; padding:10px; color: black
+}
+.text-right{
+	text-align: right
+}
